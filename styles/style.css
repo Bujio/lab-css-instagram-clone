@@ -6,5 +6,136 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: auto 0px;
+  background-color: white;
+}
+
+*{
+  border: 0px;
+}
+
+img{
+  width: 100%;
+}
+
+
+header{
+  background-color: #1c5380;
+  height: 25rem;
+}
+
+.logo-insta{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.logo-singup{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 100px;
+  padding: 150px 0px;
+}
+
+.buttons-house{
+  width: 8%;
+  height: 70px;
+  margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c5380;
+  border: #06365f outset 2px;
+  border-radius: 9px;
+}
+
+.img-buttons{
+  
+  width: 50px;
+
+
+
+}
+
+.log-in{
+  font-size: 30px;
+  color: white;
+
+}
+
+main{
+  height: 45rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+
+.img-phones{
+width: 30rem;
+  /* position: absolute;
+  bottom: 25rem;
+  left: 20rem; */
+
+}
+
+.section-info{
+  border: black solid 1px;
+  border-radius: 9px;
+  box-shadow: grey 3px;
+  border-style: hidden;
+  text-align: left;
+  width: 40%;
+  height: 500px;
+  background-color: white;
+  padding: 30px;
+  /* position: absolute;
+  bottom: 25rem;
+  right: 20rem; */
+
+  display: inline-flexbox;
+  justify-self: start;
+
+ 
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+p{
+  font-size: 18px;
+  font-weight: 300;
+
+}
+
+footer{
+  height: 15rem;
+  margin: 0px 180px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #06365f;
+}
+
+.special-li{
+  color:grey;
+  font-weight: 400;
+}
+
+.img-download{
+  margin-top: 50px;
+
 }
